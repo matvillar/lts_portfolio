@@ -1,5 +1,9 @@
 import AboutMe from '@/components/shared/AboutMe';
+import Projects from '@/components/shared/Projects';
 import HomeHero from '@/components/shared/HomeHero';
+import Experience from '@/components/shared/Experience';
+import ContactMe from '@/components/shared/ContactMe';
+import Footer from '@/components/shared/Footer';
 
 export default function Home() {
   return (
@@ -7,9 +11,15 @@ export default function Home() {
       <div className="flex max-w-7xl h-screen items-center justify-center w-full">
         <HomeHero />
       </div>
-      <section className="" id="about">
-        <AboutMe />
-      </section>
+
+      <AboutMe />
+
+      <Experience />
+
+      <Projects />
+
+      <ContactMe />
+      <Footer />
     </main>
   );
 }

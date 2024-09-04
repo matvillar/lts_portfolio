@@ -5,8 +5,8 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 import { CiFacebook } from 'react-icons/ci';
 const SocialMedia = () => {
   return (
-    <div className="fixed bottom-0 flex w-full z-30">
-      <div className="hidden ml-10 md:flex md:flex-col gap-5">
+    <div className="fixed bottom-0 left-0 flex w-full z-10 max-w-14">
+      <div className="hidden ml-10 lg:flex lg:flex-col md:hidden gap-5">
         <Link href="https://www.linkedin.com/">
           <AiOutlineLinkedin
             className="text-white-200 font-semibold hover:text-purple-100 hover:scale-105 transition-all cursor-pointer"

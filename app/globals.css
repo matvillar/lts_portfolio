@@ -6,6 +6,10 @@
   * {
     @apply border-border;
   }
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
     background-color: #303030;

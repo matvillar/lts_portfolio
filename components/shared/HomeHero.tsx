@@ -5,6 +5,7 @@ import PrimaryButton from './PrimaryButton';
 import MagicButton from '../ui/MagicButton';
 import { IoIosSend } from 'react-icons/io';
 import Link from 'next/link';
+import { PiMouseScrollBold } from 'react-icons/pi';
 
 type Props = {};
 
@@ -27,14 +28,20 @@ const HomeHero = (props: Props) => {
               building modern, scalable web applications. I strive to deliver
               high-quality code and innovative solutions for complex challenges.
             </p>
-            <Link href="#projects" className="flex h-12 text-white mt-10">
-              <PrimaryButton
-                title="Show My Work"
-                padding="p-7"
-                icon={IoIosSend}
-                isUpperCase={true}
+            <div className="flex mt-20">
+              <Link href="#projects" className="w-full h-12 text-white">
+                <PrimaryButton
+                  title="Show My Work"
+                  padding="p-7"
+                  icon={IoIosSend}
+                  isUpperCase={true}
+                />
+              </Link>
+              <PiMouseScrollBold
+                size={42}
+                className="hidden text-white animate-bounce h-12 m-5 lg:block"
               />
-            </Link>
+            </div>
           </div>
         </div>
       </div>
