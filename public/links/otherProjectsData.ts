@@ -1,0 +1,50 @@
+export const otherProjectsData = [
+  {
+    id: 1,
+    title: 'Ledgora',
+    des: 'An Accounting App to manage credit card transactions, invoices, and more.',
+    img: '/images/ledgora.png',
+    iconLists: [
+      '/techIcons/react.png',
+      '/techIcons/tail.png',
+      '/techIcons/ts1.png',
+      '/techIcons/next.svg',
+      '/techIcons/fm.png',
+    ],
+    link: '',
+  },
+  {
+    id: 2,
+    title: 'LineUp Board',
+    des: 'A Trello clone but simpler.',
+    img: '/images/lineup-board.png',
+    iconLists: [
+      '/techIcons/js.png',
+      '/techIcons/css.png',
+      '/techIcons/net.png',
+      '/techIcons/html.png',
+    ],
+    link: 'https://lineupboard.netlify.app',
+  },
+  {
+    id: 3,
+    title: 'Kiwi Loco UI',
+    des: '4th Place Winner in the 2022 Hackathon at BYU-i.',
+    img: '/images/kiwi.png',
+    iconLists: [
+      '/techIcons/js.png',
+      '/techIcons/css.png',
+      '/techIcons/net.png',
+      '/techIcons/html.png',
+    ],
+    link: 'https://kiwiloco.netlify.app/',
+  },
+  {
+    id: 4,
+    title: 'Visit My GitHub',
+    des: 'More Apps are coming soon.',
+    img: '/images/coming_soon.png',
+    iconLists: ['/techIcons/gh.png'],
+    link: 'https://github.com/matvillar',
+  },
+];

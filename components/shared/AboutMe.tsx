@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import SectionTitle from './SectionTitle';
 
 const AboutMe = () => {
   return (
@@ -9,9 +10,7 @@ const AboutMe = () => {
     >
       <div className="flex justify-center">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-left justify-center">
-          <h2 className="font-bold text-xl text-purple-100 text-left max-w-80 lg:text-3xl mb-14">
-            01. <span className="text-white ml-3 lg:text-4xl">About Me</span>
-          </h2>
+          <SectionTitle sectionNum="01." sectionName="About Me" />
           <div className="flex flex-col items-center md:flex-col gap-5 lg:flex-row">
             <p className="text-left self-start mb-4 text-base md:text-xl max-w-[90%]">
               I&apos;m a software developer based in the US, specializing in

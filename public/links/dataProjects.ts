@@ -6,7 +6,7 @@ export const dataProjects = [
     projectName: 'RexRide',
     description:
       'A ride-sharing platform connecting students within the university community. Built with React, Next.js, and TailwindCSS for a seamless user experience.',
-    srcImg: '/rexride.png',
+    srcImg: '/images/rexride.png',
     imgClassName:
       'rounded-lg object-cover w-full lg:max-w-[50%] transform transition duration-200 ease-in-out filter grayscale hover:grayscale-0 cursor-pointer hover:scale-105',
     defaultImg: '/images/default.jpg',
@@ -21,7 +21,7 @@ export const dataProjects = [
     projectName: 'React Ecommerce',
     description:
       'An e-commerce platform built with React, Redux, and NodeJS. Features include user authentication, product search, and cart functionality.',
-    srcImg: '/react-eco.png',
+    srcImg: '/images/react-eco.png',
     imgClassName:
       'rounded-lg object-cover w-full lg:max-w-[50%] transform transition duration-200 ease-in-out filter grayscale hover:grayscale-0 cursor-pointer hover:scale-105',
     id: 2,
@@ -35,7 +35,7 @@ export const dataProjects = [
     projectName: 'Previous Portfolio',
     description:
       'My previous portfolio built with React, Next.js, and TailwindCSS. Features include a dark mode toggle, smooth scroll, and a responsive design.',
-    srcImg: '/prev-portfolio.png',
+    srcImg: '/images/prev-portfolio.png',
     imgClassName:
       'rounded-lg object-cover w-full lg:max-w-[50%] transform transition duration-200 ease-in-out filter grayscale hover:grayscale-0 cursor-pointer hover:scale-105',
     id: 3,

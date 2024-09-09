@@ -12,7 +12,6 @@ import {
 import Link from 'next/link';
 import { headerLinks } from '@/public/links/headerLinks';
 import { HiMenuAlt3 } from 'react-icons/hi';
-import { Close } from '@radix-ui/react-dialog';
 import { useState } from 'react';
 import Footer from './Footer';
 import SocialLinksBM from './SocialLinksBM';

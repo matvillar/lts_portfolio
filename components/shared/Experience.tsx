@@ -1,6 +1,7 @@
 import React from 'react';
 import ExpTabs from './ExpTabs';
 import { dataJobs } from '@/public/links/dataJobs';
+import SectionTitle from './SectionTitle';
 
 const Experience = () => {
   return (
@@ -9,9 +10,7 @@ const Experience = () => {
       id="experience"
     >
       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] mx-auto justify-center">
-        <h2 className="font-bold text-xl text-purple-100 text-left lg:text-3xl">
-          02. <span className="text-white ml-3 lg:text-4xl">My Experience</span>
-        </h2>
+        <SectionTitle sectionNum="02." sectionName="My Experience" />
         <div className="mx-auto max-w-[90%]">
           <ExpTabs data={dataJobs} />
         </div>
