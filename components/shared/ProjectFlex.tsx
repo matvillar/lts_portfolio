@@ -34,9 +34,9 @@ const ProjectFlex = ({
     linkGithub === '' ? 'https://github.com/matvillar' : linkGithub;
 
   return (
-    <div className="rounded-lg mx-auto z-20">
+    <div className="rounded-lg mx-auto z-20 ">
       <div
-        className={`relative flex flex-col lg:flex-row my-20 ${
+        className={`relative flex flex-col lg:flex-row my-20 border border-white-200 rounded-lg lg:border-none ${
           isReverse ? 'lg:flex-row-reverse' : ''
         }`}
       >

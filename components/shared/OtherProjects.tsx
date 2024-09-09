@@ -58,12 +58,16 @@ const OtherProjects = (props: Props) => {
                     ))}
                   </div>
 
-                  <div className="flex justify-center items-center">
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    className="flex justify-center items-center rounded-full border border-white-200 py-2 px-3"
+                  >
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      Check Live Site
+                      Live Site
                     </p>
                     <FaLocationArrow className="ms-3 text-purple-100" />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </PinContainer>
