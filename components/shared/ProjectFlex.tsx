@@ -36,7 +36,7 @@ const ProjectFlex = ({
   return (
     <div className="rounded-lg mx-auto z-20">
       <div
-        className={`relative flex flex-col flex-shrink-0 lg:flex-row my-20 ${
+        className={`relative flex flex-col lg:flex-row my-20 ${
           isReverse ? 'lg:flex-row-reverse' : ''
         }`}
       >
@@ -48,7 +48,7 @@ const ProjectFlex = ({
           height={500}
         />
         <div
-          className={`bg-black-100 opacity-90 p-10 rounded-lg absolute flex flex-col bottom-0 top-0  lg:gap-5 justify-between lg:bg-transparent lg:text-right md:min-h-[350px] ${
+          className={`bg-black-100 opacity-90 p-3 rounded-lg absolute flex flex-col bottom-0 top-0  lg:gap-5 justify-between lg:bg-transparent lg:text-right md:min-h-[350px] ${
             isReverse
               ? 'lg:text-left lg:left-0 lg:right-[30%]'
               : 'lg:left-[30%]'
@@ -87,7 +87,7 @@ const ProjectFlex = ({
           </ul>
 
           <div
-            className={`flex justify-start text-xs gap-5 ${
+            className={`flex justify-start text-xs gap-5${
               isReverse ? 'lg:justify-start' : 'lg:justify-end'
             }`}
           >
