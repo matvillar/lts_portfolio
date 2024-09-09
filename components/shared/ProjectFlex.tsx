@@ -40,15 +40,17 @@ const ProjectFlex = ({
           isReverse ? 'lg:flex-row-reverse' : ''
         }`}
       >
-        <Image
-          className="rounded-lg object-cover w-full lg:max-w-[50%] transform transition duration-200 ease-in-out filter grayscale hover:grayscale-0 cursor-pointer hover:scale-105"
-          src={srcImg}
-          alt={projectName}
-          width={500}
-          height={500}
-        />
+        <Link href={linkLiveView} target="_blank" className="lg:max-w-[50%]">
+          <Image
+            className="rounded-lg object-cover w-full  transform transition duration-200 ease-in-out filter grayscale hover:grayscale-0 cursor-pointer hover:scale-105"
+            src={srcImg}
+            alt={projectName}
+            width={500}
+            height={500}
+          />
+        </Link>
         <div
-          className={`bg-black-100 opacity-90 p-3 rounded-lg absolute flex flex-col bottom-0 top-0  lg:gap-5 justify-between lg:bg-transparent lg:text-right md:min-h-[350px] ${
+          className={`bg-black-100 opacity-90 p-3 rounded-lg absolute flex flex-col bottom-0 top-0  lg:gap-5 justify-between lg:justify-center lg:bg-transparent lg:text-right md:min-h-[300px] ${
             isReverse
               ? 'lg:text-left lg:left-0 lg:right-[30%]'
               : 'lg:left-[30%]'
@@ -88,7 +90,7 @@ const ProjectFlex = ({
 
           <div
             className={`flex justify-start text-xs gap-5${
-              isReverse ? 'lg:justify-start' : 'lg:justify-end'
+              isReverse ? 'lg:flex lg:justify-start' : 'lg:flex lg:justify-end'
             }`}
           >
             <Button className="hover:text-purple-100 hover:scale-105 transition-all cursor-pointer">

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FaLocationArrow } from 'react-icons/fa6';
 
 import LineAroundTitle from '../ui/LineAroundTitle';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -22,8 +23,8 @@ const OtherProjects = (props: Props) => {
             key={item.id}
           >
             <PinContainer title={item.title} href={item.link}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[15vh] lg:h-[40vh] lg:max-h-[20vh]">
-                <div className="relative w-full h-full">
+              <div className="relative flex items-center justify-center sm:w-96 w-[65vw] overflow-hidden h-[15vh] lg:h-[40vh] lg:max-h-[20vh]">
+                <Link href={item.link} className="relative w-full h-full">
                   <Image
                     src={item.img}
                     alt="cover"
@@ -31,7 +32,7 @@ const OtherProjects = (props: Props) => {
                     width={400}
                     height={400}
                   />
-                </div>
+                </Link>
               </div>
               <div className="flex flex-col justify-end mt-5 p-4">
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
