@@ -22,7 +22,7 @@ const OtherProjects = (props: Props) => {
             key={item.id}
           >
             <PinContainer title={item.title} href={item.link}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[15vh] lg:h-[40vh] lg:max-h-[20vh]">
+              <div className="relative flex items-center justify-center sm:w-96 w-[60vw] overflow-hidden h-[15vh] lg:h-[40vh] lg:max-h-[20vh]">
                 <div className="relative w-full h-full">
                   <Image
                     src={item.img}
