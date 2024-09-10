@@ -7,7 +7,7 @@ import SectionTitle from './SectionTitle';
 const Projects = () => {
   return (
     <section
-      className="max-w-7xl items-center justify-center w-full pb-20 pt-36 text-white-200"
+      className="max-w-7xl items-center justify-center mt-10 lg:mt-0 w-full pb-20 pt-36 text-white-200"
       id="projects"
     >
       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] mx-auto justify-center">
