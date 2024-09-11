@@ -4,6 +4,7 @@ import HomeHero from '@/components/shared/HomeHero';
 import Experience from '@/components/shared/Experience';
 import ContactMe from '@/components/shared/ContactMe';
 import Footer from '@/components/shared/Footer';
+import InfiniteTechLoop from '@/components/shared/InfiniteTechLoop';
 
 export default function Home() {
   return (

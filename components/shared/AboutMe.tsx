@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 const AboutMe = () => {
   return (
     <section
-      className="max-w-7xl items-center  lg:h-[80vh] justify-center w-full pb-20 pt-36 text-white-200 lg:mb-20"
+      className="max-w-7xl items-center  lg:h-[70vh] justify-center w-full pb-20 pt-36 text-white-200 lg:mb-20"
       id="about"
     >
       <div className="flex justify-center">
